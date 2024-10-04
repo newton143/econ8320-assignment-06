@@ -1,10 +1,9 @@
 name: Autograding Tests
 'on':
-- workflow_dispatch
-- repository_dispatch
 - push
+- repository_dispatch
 permissions:
-  checks: write
+  checks: write 
   actions: read
   contents: read
 jobs:
