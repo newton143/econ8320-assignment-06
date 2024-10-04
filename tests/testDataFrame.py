@@ -2,7 +2,7 @@ import unittest
 import json
 import pandas as pd
 
-with open("Lesson.ipynb", "r") as file:
+with open("Lesson.ipynb", "r", encoding='utf-8') as file:
     f_str = file.read()
 
 doc = json.loads(f_str)
